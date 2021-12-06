@@ -1,0 +1,10 @@
+# 没有写出符合要求的代码，题解中
+#感谢@ sha-yan-mao-mi-w
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        return bin(int(a, 2)+int(b, 2))[2:]
+
+作者：sha-yan-mao-mi-w
+链接：https://leetcode-cn.com/problems/add-binary/solution/67-er-jin-zhi-qiu-he-pythonjie-fa-chun-c-ppif/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
